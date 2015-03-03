@@ -1,0 +1,31 @@
+html{
+	box-sizing: border-box;
+}
+*, *:before, *:after{
+	box-sizing: inherit;
+}
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, img, ol, ul, li, article, footer, header, nav{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+ol, ul{
+	list-style: none;
+}
+.clfx:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.wrap{
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 900px;
+}
+.slides > li{
+	margin: 0 6px;
+}
